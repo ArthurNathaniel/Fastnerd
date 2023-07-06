@@ -5,16 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <title>About Us- </title>
-
-
     <?php include 'cdn.php'; ?>
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap  -->
-
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css" >
+    <link rel="stylesheet" href="about.css">
+    <title>About Us - </title>
 
 </head>
 
@@ -74,10 +71,64 @@
             that we deliver cutting-edge solutions that give you a competitive edge.
         </p>
         <p>
-            Whether you are a small business, a startup, or a large enterprise, A-mole is here to support you on your 
-            digital journey. Let us transform your online presence, secure your servers, unlock your child's potential, 
-            and elevate your brand messaging. Partner with A-mole today and experience the difference we can make for your 
+            Whether you are a small business, a startup, or a large enterprise, A-mole is here to support you on your
+            digital journey. Let us transform your online presence, secure your servers, unlock your child's potential,
+            and elevate your brand messaging. Partner with A-mole today and experience the difference we can make for your
             business.
         </p>
     </div>
 </section>
+
+<section>
+    <div class="client-heading">
+        <h1 class="mt-5 text-center">Our Trusted Clients</h1>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper mt-3">
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/bg.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        autoplay:true,
+        slidesPerView: 5,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>

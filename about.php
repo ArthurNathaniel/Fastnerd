@@ -14,6 +14,7 @@
     <!-- Bootstrap  -->
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css" >
 
 </head>
 

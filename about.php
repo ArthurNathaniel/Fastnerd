@@ -84,38 +84,78 @@
         <h1 class="mt-5 text-center">Our Trusted Clients</h1>
     </div>
     <!-- Swiper -->
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper whole">
         <div class="swiper-wrapper mt-3">
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/1.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/2.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/3.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/4.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/5.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/6.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/8.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/9.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="./images/bg.jpg" alt="">
+                <img src="./images/10.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/11.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/13.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/14.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/15.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/16.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/17.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/18.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/19.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/20.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/21.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/22.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/23.jpg" alt="">
             </div>
         </div>
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination "></div> -->
     </div>
+</section>
+
+<section id='me'>
+    <?php include "footer.php"; ?>
 </section>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -123,12 +163,11 @@
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper(".mySwiper", {
-        autoplay:true,
+        loop: true,
+        autoplay: true,
         slidesPerView: 5,
         spaceBetween: 30,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
+        speed:2500,
+    
     });
 </script>

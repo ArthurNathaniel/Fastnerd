@@ -167,7 +167,11 @@
         autoplay: true,
         slidesPerView: 5,
         spaceBetween: 30,
-        speed:2500,
-    
+        speed: 2500,
+
     });
 </script>
+
+</body>
+
+</html>

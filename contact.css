@@ -1,0 +1,26 @@
+.contact-grid{
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-block: 80px;
+}
+.contact-box{
+    width: 95%;
+    text-align: center;
+}
+
+.bg-contact{
+    padding-block: 50px;
+        margin-block: 80px;
+        
+        background-image: url(./images/contact.jpeg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 700px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 5%;
+        padding-right: 5%;
+}

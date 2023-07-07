@@ -15,6 +15,8 @@
 
 </head>
 
+<?php include 'header.php'; ?>
+<?php include 'navbar.php'; ?>
 
 <section>
     <div class="swiper mySwiper2">
@@ -34,8 +36,8 @@
 </section>
 
 <section>
-    <div class="about-heading">
-        <h1 class="text-center mt-5">About Us</h1>
+    <div class="about-heading" style="font-size: 50px; margin-top:50px; margin-bottom:20px;">
+        <h1 class="text-center">About Us</h1>
     </div>
     <div class="about-text">
         <p>
@@ -80,8 +82,8 @@
 </section>
 
 <section>
-    <div class="client-heading">
-        <h1 class="mt-5 text-center">Our Trusted Clients</h1>
+    <div class="client-heading" style="margin-top: 80px; margin-bottom:30px; font-size:50px" >
+        <h1 style="text-align: center;">Our Trusted Clients</h1>
     </div>
     <!-- Swiper -->
     <div class="swiper mySwiper whole">

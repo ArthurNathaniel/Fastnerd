@@ -45,7 +45,7 @@
 
 <section>
     <div class="bg-contact">
-        
+        <img src="https://cdn.discordapp.com/attachments/1063445259750752256/1126552922109513798/map.png" alt="" style="width: 550px; height:550px;">
     </div>
 </section>
 
@@ -63,7 +63,7 @@
         <div class="contact-box">
             <h3>Sales</h3>
             <p>
-               Questions or queries? Get in touch!
+                Questions or queries? Get in touch!
             </p>
             <p>
                 <a href="">info@</a>
@@ -72,7 +72,7 @@
         <div class="contact-box">
             <h3>Phone</h3>
             <p>
-                Mon - Fri from 8am to 5pm
+                Mon - Sat from 8am to 5pm
             </p>
             <p>
                 <a href="">+233 000 000 000</a>
@@ -85,3 +85,6 @@
 </section>
 
 <?php include 'footer.php'; ?>
+</body>
+
+</html>

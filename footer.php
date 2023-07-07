@@ -10,11 +10,13 @@
       <div class="foot-services">
          <h2>Services</h2>
          <a href="">Softnage</a>
-    
+
          <a href="">Fasternd</a>
-      
-      
+
+
          <a href="">GhBox</a>
       </div>
    </div>
 </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>

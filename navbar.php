@@ -108,8 +108,7 @@
                                                 </li>
                                                 <li><a href="./technical/index.html">Repairs & Configuration</a>
                                                 </li>
-                                                <li><a href="./technical/index.html">Outdoor & Promotion</a>
-                                                </li>
+                                                
                                             </ul>
                                         </li>
                                         <!-- <li><a href="./web/index.html">Web & Systems</a></li> -->

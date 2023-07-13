@@ -1,0 +1,970 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<title>GHBox</title>
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+	<!-- Theme Style -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<!--Technologies-->
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/newtech.css" />
+
+	<!-- Responsive -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+
+	<!-- Colors -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+
+	<!-- Animation Style -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+
+	<!-- Favicon and touch icons  -->
+	<link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
+	<link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+	<link href="images/new/logo2.png" rel="shortcut icon">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+	<style>
+		.kkb {
+			animation-duration: 4s;
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body {
+			font-family: Verdana, sans-serif;
+			margin: 0
+		}
+
+		.mySlides {
+			display: none
+		}
+
+		img {
+			vertical-align: middle;
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+
+		/* Next & previous buttons */
+		.prev,
+		.next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+
+		.active,
+		.dot:hover {
+			background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 3s;
+			animation-name: fade;
+			animation-duration: 3s;
+		}
+
+		.panel-body {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.panel-body {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			align-self: center;
+		}
+
+		@-webkit-keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+
+			.prev,
+			.next,
+			.text {
+				font-size: 11px
+			}
+		}
+	</style>
+</head>
+
+<body class="header-sticky">
+	<section class="loading-overlay">
+		<div class="Loading-Page">
+			<h2 class="loader">Loading...</h2>
+		</div>
+	</section>
+
+
+	<div class="site-brand">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="logo" class="logo">
+						<a href="index.html" rel="home" style="font-size: 25px">
+							<img src="images/new/softnage.png" alt="image" style="margin-top: 20px;height: 50px;">
+						</a>
+					</div><!-- /.logo -->
+					<div class="header-widgets">
+						<div id="text-1" class="widget widget_text">
+							<div class="textwidget">
+								<br>
+								<div class="info-icon">
+									<i class="icon-call-out icons"></i>
+									<div class="content">Call Us Now
+										<br>
+										<span>+233 202 202 020</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="text-2" class="widget widget_text">
+							<div class="textwidget">
+								<br>
+								<div class="info-icon">
+									<i class="icon-clock icons"></i>
+									<div class="content">Opening times
+										<br>
+										<span>Mon - Fri: 7:30 - 18:00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.header-widget -->
+				</div><!-- /.col-md-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.site-brand -->
+
+	<!-- Header -->
+	<header id="header" class="header clearfix">
+		<div class="header-wrap clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="nav-wrap">
+							<div class="btn-menu">
+								<span></span>
+							</div><!-- /mobile menu button -->
+							<nav id="mainnav" class="mainnav">
+								<ul class="menu">
+									<li class="home">
+										<a href="//a-mole.com" target="_blank">Home</a>
+									</li>
+									<li class="has-children"><a href="#">GHBox</a>
+										<ul class="submenu">
+											<li><a href="#OurTeam">Our Team</a></li>
+										</ul><!-- /.submenu -->
+									</li>
+									<li class="has-children"><a href="#products">Products</a>
+										<ul class="submenu">
+											<li><a href="https://hotelipad.com">Hotelipad</a>
+												<ul class="submenu">
+													<li><a href="">Something here</a></li>
+													<li><a href="">Something here</a></li>
+													<li><a href=""> Something here</a></li>
+												</ul>
+											</li>
+											<li><a href="https://easybalance.net">Easy Balance</a></li>
+											<li><a href="https://ed-master.net">Ed-master</a></li>
+										</ul><!-- /.submenu -->
+									</li>
+									<li class="has-children"><a href="#services">Services</a>
+										<ul class="submenu">
+											<li><a href="#website">Digital Advertising</a></li>
+											<li><a href="#application">Printing & Branding</a></li>
+											<li><a href="#server">Messaging System</a></li>
+										</ul><!-- /.submenu -->
+									</li>
+								</ul><!-- /.menu -->
+								<div class="social-links">
+									<a href="https://web.facebook.com/profile.php?id=100093039194639" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://twitter.com/GHBox1610501" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a href="https://www.linkedin.com/company/GHBox/?originalSubdomain=gh"
+										target="_blank">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</div>
+							</nav><!-- /.mainnav -->
+						</div><!-- /.nav-wrap -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.header-wrap -->
+	</header><!-- /.header -->
+
+	<!-- Slider -->
+	<div class="tp-banner-container">
+		<div class="tp-banner">
+			<ul>
+				<li data-transition="random-static" data-slotamount="7" data-masterspeed="1000"
+					data-saveperformance="on">
+					<img src="images/ghbox/hero.jpg" alt="slider-image" />
+					<div class="tp-caption sfl title-slide center" data-x="30" data-y="147" data-speed="1000"
+						data-start="1000" data-easing="Power3.easeInOut">
+						Shaping Tomorrow Today <br>
+					</div>
+					<div class="tp-caption sfr desc-slide center" data-x="30" data-y="249" data-speed="1000"
+						data-start="1500" data-easing="Power3.easeInOut">
+						<p style="font-size:25px ">GHBox<br>
+						</p>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Flat imagebox -->
+	<section class="flat-row flat-imagebox pad-bottom20px kkb animated bounceInDown" style="padding-block: 70px;">
+		<div class="container">
+			<h2 style="text-align: center; color:#0e1b3b;">Inventive Marketing Systems
+			</h2><br>
+			<div class="row">
+				<div class="col-md-4" data-timeout="400">
+					<div class="panel" style="margin: 5px; padding: 5px;">
+						<div class="panel-body">
+							<img src="images/ghbox/sem.png" alt="images" style="margin: 0 auto; height: 200px;">
+							<h5 style="text-align: center; color:#fff;">Search Engine Marketing (SEM)</h5>
+							<br>
+							<p class="box-desc">
+								Drive targeted traffic and increase visibility by utilizing search engine marketing
+								strategies. With strategic keyword
+								research, optimized ad campaigns, and effective bidding techniques, our SEM solutions
+								ensure that your brand appears
+								prominently in search engine results, maximizing your online presence and driving
+								qualified leads.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="panel" style="margin: 5px; padding: 5px;">
+						<div class="panel-body">
+							<img src="images/ghbox/social_media.png" alt="images" style="height: 200px;">
+							<h5 style="text-align: center; color:#fff;">Social Media Advertising</h5>
+							<br>
+							<p class="box-desc">
+								Utilize social media platforms to engage your audience.
+								Our social media advertising services leverage Facebook, Instagram, and Twitter to
+								deliver tailored messages, boost
+								brand awareness, drive website traffic, and generate conversions. With precise targeting
+								and compelling ads, your brand
+								will stand out in the social media landscape.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4" data-timeout="800">
+					<div class="panel" style="margin: 5px; padding: 5px;">
+						<div class="panel-body">
+							<img src="images/ghbox/digital_advertising.png" alt="images" style=" height: 200px;">
+							<h5 style="text-align: center; color:#fff;">Display Advertising</h5>
+							<br>
+							<p class="box-desc">
+								Create visual impact and captivate your audience with display advertising. Our creative
+								solutions showcase your brand
+								through visually appealing banners, rich media, and interactive ad formats on websites
+								and apps. With advanced targeting
+								and optimization, we help you reach the right audience, boost brand recognition, and
+								drive conversions.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="flat-divider d40px"></div>
+
+	<section class="homepage-technologies" style="color: #0e1b3b;">
+		<div class="technologies-intro">
+			<div class="container">
+				<h1 id="products" style="text-align:center; margin-top:0px; color: #0e1b3b;">Products</h1>
+				<p style="text-align:center;"> We are RoR experts, but building great products would not be possible
+					without knowledge and extensive usage of many other things, e.g. HaProxy, Nginx, React/Angular,
+					PostgreSQL, Redis, Redshift, AWS, Heroku and many-many more. </p>
+			</div>
+		</div>
+		<div class="domains">
+			<div class="container is-wide">
+				<div class="item is-frontend">
+					<a href="https://hotelipad.com" target="_blank">
+						<h2>Hotelipad</h2>
+					</a>
+					<img src="./images/new/hotelipad.png" alt="Hotelipad Hotel Management System">
+					<p>
+						Easily check your new and repeat guest in, view all information about a guest with a click, all
+						on the same page.
+					<ul>
+						<li>-View all checkin financials</li>
+						<li>-Easily receive payment, print receipts</li>
+						<li>-Room Transfers, Extend checkouts</li>
+						<li>-Attach Services, Add guests cost to organisations, conferences etc</li>
+					</ul>
+					</p>
+				</div>
+				<div class="item is-mobile">
+					<a href="https://easybalance.net" target="_blank">
+						<h2>Easy Balance</h2>
+					</a>
+					<img src="./images/new/easybalance.png" alt="Easy Balance Shop management System">
+					<p>
+						Manage your Retail/Wholesale shop with our point of sale software:
+					<ul>
+						<li>-Know when products are expiring</li>
+						<li>-Know when products quantity is reducing</li>
+						<li>-Know when your business is making profit or loss</li>
+					</ul>
+					</p>
+				</div>
+				<div class="item is-backend">
+					<a href="https://ed-master.net" target="_blank">
+						<h2>Ed-master</h2>
+					</a>
+					<img src="./images/new/ed-master.png" alt="Ed-master School Management System">
+					<p>
+						Execute Institutional Daily Operations, Generate Insightful Reports and
+						Make Better & Faster Decisions all in one flexble and intuitive system.
+						Edmaster is an online school management system software that simplifies any
+						school's academic & administrative processes effortlessly.
+						It is the trusted choice for schools.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="flat-divider d40px"></div>
+
+	<section class="flat-row pad-bottom40px animated slideInRight" style="background-color: #0e1b3b;">
+		<div class="container">
+			<div class="row">
+				<div class="title-section">
+					<h2 class="title" id="services">&nbsp;&nbsp;&nbsp; Services</h2>
+				</div><!-- /.title-section -->
+			</div><!-- /.row -->
+			<div class="s-row">
+				<div class="flat-iconbox">
+
+					<div class="s-item">
+						<div class="iconbox ">
+							<div class="s-box-header">
+								<img src="images/ghbox/digital_advertising.png" alt="images">
+								<h5 class="box-title" id="services"">Digital Advertising</h5>
+								<p class=" box-content">
+									Harness the power of the digital landscape to connect with your audience, drive
+									engagement, and achieve your business
+									goals.
+									</p>
+							</div>
+						</div>
+					</div>
+					<div class="s-item">
+						<div class="iconbox ">
+							<div class="s-box-header">
+								<img src="images/ghbox/printing.png" alt="images">
+								<h5 class="box-title" id="application">Printing &amp; Branding </h5>
+								<p class="box-content">
+									Elevate your brand's presence with our exceptional printing and branding services,
+									delivering top-quality materials that
+									make a lasting impact.
+
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="s-item">
+						<div class="iconbox ">
+							<div class="s-box-header">
+								<img src="images/ghbox/message.png" alt="images">
+								<h5 class="box-title" id="server">Messaging System </h5>
+								<p class="box-content">
+									Streamline your communication and enhance collaboration with our efficient messaging
+									system, empowering your team to
+									stay connected, exchange information, and achieve seamless workflow efficiency.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="s-item">
+						<div class="iconbox color">
+							<div class="s-box-header">
+								<div class="box-icon"><i class="fa icons icon-layers"></i></div>
+								<h5 class="box-title">In need of our Service or Support?</h5>
+								<div class="flat-button cl-white">
+									<a href="contact.html">Contact Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="flat-divider d40px"></div>
+
+	<section id="OurTeam" class="flat-row about pad-top0px">
+		<div class="container">
+			<div class="row" style="height:auto;">
+				<div class="col-md-6">
+					<div class="image-single">
+						<img src="images/new/a-mole.jpg" alt="image">
+					</div>
+				</div><!-- /.col-md-6 -->
+				<div class="col-md-6">
+					<div class="about-right">
+						<h5 style="text-align: justify;">
+							Unlock your business's full potential with GHBox! We specialize in designing advanced
+							systems and tools for start-ups to
+							multinationals, helping you maintain a competitive edge in the marketplace. As fellow
+							entrepreneurs, we understand your
+							needs firsthand, and that's why we offer workable solutions through our platforms: GHKart
+							(www.ghkart.com) and Edu-GH
+							(www.edu-gh.net).
+						</h5>
+					</div>
+				</div><!-- /.col-md-6 -->
+			</div><!-- /.row -->
+			<div class="flat-divider d50px"></div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="our-story">
+						<h4 class="title">At GHBox ;</h4>
+						<p class="content" style="text-align: justify;">
+							"We Dont Have To Be SMARTER Than THE REST; <br>We Have To Be More DISCIPLINED Than THE REST"
+							<br> Warren Buffett.
+						</p>
+					</div>
+					<div class="flat-divider d50px"></div>
+				</div><!-- /.col-md-2 -->
+			</div><!-- /.row -->
+		</div>
+		</div><!-- /.container -->
+	</section>
+
+	<section class="flat-row pad-bottom40px animated slideInRight" style="background-color: #0e1b3b;">
+		<div class="container">
+			<div class="row">
+				<div class="title-section">
+					<h2 class="title">&nbsp;&nbsp;&nbsp; Why choose us?..</h2>
+				</div><!-- /.title-section -->
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="flat-iconbox">
+					<div class="item">
+						<div class="iconbox ">
+							<div class="box-header">
+								<div class="box-icon"><i class="fa icons icon-diamond"></i></div>
+								<h5 class="box-title">Experienced</h5>
+								<p class="box-content">
+									We have expertise to deliver precisely on our promises.
+								</p>
+							</div>
+						</div>
+					</div><!-- /.item -->
+					<div class="item">
+						<div class="iconbox ">
+							<div class="box-header">
+								<div class="box-icon"><i class="fa icons icon-chart"></i></div>
+								<h5 class="box-title">Superior Quality</h5>
+								<p class="box-content">
+									Quality is our hallmark. We provide our clients with quality works.
+								</p>
+							</div>
+						</div>
+					</div><!-- /.item -->
+
+					<div class="item">
+						<div class="iconbox ">
+							<div class="box-header">
+								<div class="box-icon"><i class="fa icons icon-trophy"></i></div>
+								<h5 class="box-title">Honest &amp; Reliable</h5>
+								<p class="box-content">
+									We meet commitments and exceed expectations of our clients.
+								</p>
+							</div>
+						</div>
+					</div><!-- /.item -->
+
+					<div class="item">
+						<div class="iconbox color">
+							<div class="box-header">
+								<div class="box-icon"><i class="fa icons icon-layers"></i></div>
+								<h5 class="box-title">In need of our Service or Support?</h5>
+								<div class="flat-button cl-white">
+									<a href="contact.html">Contact Us</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.item -->
+				</div><!-- /.iconbox -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
+
+	<div class="flat-divider d40px"></div>
+
+	<section class="flat-row pad-bottom100px">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="main-text">
+						<h3 class="title">Create Moments with GHBox: Unleash Innovation.
+</h3>
+						<p>From idea to realization, GHBox takes care of it all. Our team blends traditions with
+							cutting-edge innovations,
+							delivering unique projects with remarkable systems and solutions.
+<br>
+							Experience the power of GHBox at GHBox.com. Unleash innovation and create unforgettable Wow
+							Moments today!
+						</p>
+					</div>
+
+					<div class="flat-divider d50px"></div>
+
+					<div class="flat-counter">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="counter">
+									<div class="counter-image"><i class="fa icons icon-layers"></i></div>
+									<div class="numb-count" data-to="100" data-speed="30" data-waypoint-active="yes">
+										100+</div>
+									<div class="counter-title">
+										<strong>High-End</strong> Systems completed to meet our customer's Expectations.
+									</div>
+								</div>
+							</div><!-- /.col-md-4 -->
+							<div class="col-md-4">
+								<div class="counter">
+									<div class="counter-image"><i class="fa icons icon-clock"></i></div>
+									<div class="numb-count" data-to="2125" data-speed="30" data-waypoint-active="yes">
+										2125</div>
+									<div class="counter-title">
+										<strong>Working Hours</strong> in the last year with passion to deliver quality
+										services.
+									</div>
+								</div>
+							</div><!-- /.col-md-4 -->
+							<div class="col-md-4">
+								<div class="counter">
+									<div class="counter-image"><i class="fa icons icon-people"></i></div>
+									<div class="numb-count" data-to="15" data-speed="30" data-waypoint-active="yes">15+
+									</div>
+									<div class="counter-title">
+										<strong>Members</strong> working tirelessly to deliver the best technology
+										solutions.
+									</div>
+								</div>
+							</div><!-- /.col-md-4 -->
+						</div><!-- /.row -->
+					</div>
+				</div><!-- /.col-md-6 -->
+
+				<div class="col-md-6">
+					<div class="quick-form" style="background-color:black; margin-top: 35px; height: 400px;">
+						<video width="100%" height="100%" controls muted autoplay loop>
+							<source src="/images/new/nt-animation.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div><!-- /.col-md-6 -->
+			</div><!-- /.row -->
+		</div><!-- ./container -->
+	</section>
+
+	<div class="flat-divider d40px"></div>
+
+
+	<section class="is-clents">
+		<h2 style="text-align:center;">Our Clients</h2>
+		<!--<div class="grid-container">
+			<div class="grid-item">
+				
+			</div>
+			<div class="grid-item">
+				
+			</div>
+			<div class="grid-item">
+				
+			</div>
+			<div class="grid-item">
+				
+			</div>
+			<div class="grid-item">
+				
+			</div>
+			<div class="grid-item">
+				<img src="" alt="">
+			</div>
+		</div>-->
+		<div class="swiper mySwiper" style="height: 200px; margin-block:50px; margin-left:10px; margin-right:20px; ">
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide">
+					<img src="http://newmission.edu.gh/images/logo.png" alt="New Mission Academy logo">
+				</div>
+				<div class="swiper-slide">
+					<img src="http://www.vraschools.com/images/logo-wide.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="http://donymasteel.com/assets/images/log.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="https://ridgecondos.com.gh/wp-content/uploads/2023/02/main-logo.png" alt=""
+						style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="https://springsideacademy.com/images/logo.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new/candy-logo.png" alt="" style="height:90%;">
+				</div>
+
+				<div class="swiper-slide">
+					<img src="./images/new5/1.png" alt="Kings World Furniture">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/2.png" alt="" style="height:90%;">
+				</div>
+
+				<div class="swiper-slide">
+					<img src="./images/new5/4.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/22.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/6.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/21.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/8.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/9.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/10.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/11.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/23.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/13.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/14.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/15.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/16.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/17.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/18.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/19.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/20.png" alt="" style="height:90%;">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/24.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/25.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/27.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/28.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/29.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/32.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/new5/31.png" alt="">
+				</div>
+
+				<!-- <div class="swiper-slide">Slide 6</div>
+			  <div class="swiper-slide">Slide 7</div>
+			  <div class="swiper-slide">Slide 8</div>
+			  <div class="swiper-slide">Slide 9</div>-->
+			</div>
+			<!--<div class="swiper-pagination"></div>-->
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer-widgets">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="widget widget_text">
+							<h3 class="widget-title">About Us</h3>
+							<div class="textwidget">
+								<p>We believe that all those who come to us must be served with integrity. As such, our
+									clients are assured of reliable services.</p>
+							</div>
+						</div>
+					</div><!-- /.col-md-3 -->
+
+					<div class="col-md-9">
+						<div class="widget widget_nav_menu">
+							<h3 class="widget-title">Services</h3>
+							<div class="menu-services-container">
+								<ul class="menu" style="float: left; margin: 10px;">
+									<li><a href="#website">Website Design</a></li>
+									<li><a href="#application">Application Development</a></li>
+									<li><a href="#server">Server &amp; Security</a></li>
+								</ul>
+							</div>
+						</div><!-- /.widget_nav_menu -->
+					</div><!-- /.col-md-9 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.footer-widgets -->
+
+		<div class="footer-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="social-links">
+							<a href="https://web.facebook.com/profile.php?id=100093039194639" target="_blank">
+								<i class="fa fa-facebook"></i>
+							</a>
+							<a href="https://twitter.com/GHBox1610501" target="_blank">
+								<i class="fa fa-twitter"></i>
+							</a>
+							<a href="https://www.linkedin.com/company/GHBox/?originalSubdomain=gh" target="_blank">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</div>
+
+						<div class="copyright">
+							<div class="copyright-content">
+								Copyright © 2023 GHBox
+							</div>
+						</div>
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.footer-content -->
+	</footer>
+
+	<!-- Go Top -->
+	<a class="go-top">
+		<i class="fa fa-chevron-up"></i>
+	</a>
+
+	</div>
+
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.easing.js"></script>
+	<script type="text/javascript" src="javascript/imagesloaded.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="javascript/owl.carousel.js"></script>
+	<script type="text/javascript" src="javascript/jquery-countTo.js"></script>
+	<script type="text/javascript" src="javascript/jquery-waypoints.js"></script>
+	<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+	<script type="text/javascript" src="javascript/jquery-validate.js"></script>
+	<script type="text/javascript" src="javascript/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="javascript/parallax.js"></script>
+	<script type="text/javascript" src="javascript/jquery.countdown.js"></script>
+	<script type="text/javascript" src="javascript/jquery.sticky.js"></script>
+	<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+	<script type="text/javascript" src="javascript/main.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+
+	<!-- Revolution Slider -->
+	<script type="text/javascript" src="javascript/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="javascript/slider.js"></script>
+	<script type='text/javascript'>
+		if (document.querySelectorAll('a[href^=\'#\']')) {
+			document.querySelectorAll('a[href^=\'#\']').forEach(anchor =>
+				anchor.addEventListener('click', e => {
+					e.preventDefault();
+					document.querySelector(anchor.getAttribute('href')).scrollIntoView({
+						behavior: 'smooth'
+					});
+				}));
+		}
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			loop: true,
+			speed: 1000,
+			autoplay: true,
+			slidesPerView: getSlidesPerView(),
+			spaceBetween: 30,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+		});
+
+		function getSlidesPerView() {
+			if (window.innerWidth < 768) {
+				return 2; // Set slidesPerView to 2 for narrow view
+			} else {
+				return 4; // Default slidesPerView for wider view
+			}
+		}
+
+		window.addEventListener("resize", function () {
+			swiper.params.slidesPerView = getSlidesPerView();
+			swiper.update(); // Update swiper after the window is resized
+		});
+	</script>
+
+
+
+
+</body>
+
+</html>

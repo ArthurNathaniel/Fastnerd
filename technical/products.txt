@@ -1,0 +1,85 @@
+<div class="container is-wide">
+				<div class="item is-frontend">
+					<a href="https://hotelipad.com" target="_blank"><h2>Closed Circuit Television (CCTV)</h2></a>
+					<img src="./images/new/hotelipad.png" alt="Hotelipad Hotel Management System">
+					<p>
+						Our state-of-the-art CCTV systems provide unparalleled surveillance 
+						capabilities to protect your premises. With high-resolution cameras, 
+						real-time monitoring, and intelligent analytics, our CCTV solutions 
+						empower you to deter and detect security breaches effectively. 
+						Gain peace of mind knowing that our advanced CCTV technology keeps a 
+						watchful eye on your property, providing valuable evidence when needed.
+						<ul>
+							<li>-View all checkin financials</li>
+							<li>-Easily receive payment, print receipts</li>
+							<li>-Room Transfers, Extend checkouts</li>
+							<li>-Attach Services, Add guests cost to organisations, conferences etc</li>
+						</ul>
+					</p>
+				</div>
+				<div class="item is-mobile">
+					<a href="https://easybalance.net" target="_blank"><h2>Access Control Systems </h2> </a>
+					<img src="./images/new/easybalance.png" alt="Easy Balance Shop management System">
+					<p>
+						Controlling access to restricted areas is crucial for maintaining a 
+						secure environment. Our Access Control Systems utilize cutting-edge 
+						biometric authentication, keycards, and PIN codes to ensure only authorized 
+						individuals can enter designated areas. With our solutions, you can prevent 
+						unauthorized access, safeguard valuable assets, and maintain a comprehensive 
+						audit trail for accountability and investigation purposes.
+						<ul>
+							<li>-Know when products are expiring</li>
+							<li>-Know when products quantity is reducing</li>
+							<li>-Know when your business is making profit or loss</li>
+						</ul>
+					</p>
+				</div>
+				<div class="item is-backend">
+					<a href="https://ed-master.net" target="_blank"><h2>Telephony Systems</h2></a>
+					<img src="./images/new/ed-master.png" alt="Ed-master School Management System">
+					<p> 
+						Efficient communication is vital for effective security operations. 
+						Our Telephony Systems enable seamless communication between security 
+						personnel, staff, and visitors, ensuring rapid response and coordination 
+						during emergencies. Whether it's IP-based phone systems, intercoms, or 
+						emergency communication devices, our telephony solutions integrate seamlessly 
+						into your security infrastructure, enhancing overall operational efficiency.
+					</p>
+				</div>
+				<div class="item is-backend">
+					<a href="https://ed-master.net" target="_blank"><h2>Time & Attendance Solutions </h2></a>
+					<img src="./images/new/ed-master.png" alt="Ed-master School Management System">
+					<p> 
+						Managing employee attendance is simplified with our 
+						Time & Attendance Solutions. By employing biometric identification, 
+						swipe cards, or PIN codes, our systems accurately record entry and 
+						exit times, improving payroll accuracy and preventing time theft. 
+						Seamlessly integrated with access control systems, our solutions 
+						streamline your security and operational processes.
+					</p>
+				</div>
+				<div class="item is-backend">
+					<a href="https://ed-master.net" target="_blank"><h2>Fencing Systems</h2></a>
+					<img src="./images/new/ed-master.png" alt="Ed-master School Management System">
+					<p> 
+						Protecting your premises begins with a robust perimeter security solution. 
+						Our customizable Fencing Systems provide physical barriers that deter 
+						unauthorized access. From chain-link fencing to electrified options, 
+						razor wire, or anti-climb features, we tailor our fencing systems to meet 
+						your specific security requirements. With our solutions, you can safeguard your 
+						assets, facilities, and personnel from external threats.
+					</p>
+				</div>
+				<div class="item is-backend">
+					<a href="https://ed-master.net" target="_blank"><h2>Motion & Detection Systems</h2></a>
+					<img src="./images/new/ed-master.png" alt="Ed-master School Management System">
+					<p> 
+						Our Motion and Detection Systems utilize advanced technologies to detect 
+						unauthorized movement within designated areas. With motion sensors, 
+						infrared detectors, or laser beams, we ensure prompt alarms, notifications, 
+						and activation of other security measures in response to suspicious activities. 
+						Our systems provide continuous monitoring, making them ideal for critical 
+						infrastructure sites and high-security facilities.
+					</p>
+				</div>
+			</div>

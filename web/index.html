@@ -1,0 +1,915 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+	<!-- Basic Page Needs -->
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<title>Fastnerd - Web & Systems</title>
+
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Bootstrap  -->
+<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" >
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+<!-- Theme Style -->
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+<!--Technologies-->
+
+<link rel="stylesheet" type="text/css" href="stylesheets/newtech.css"/>
+
+<!-- Responsive -->
+<link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+
+<!-- Colors -->
+<link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+
+<!-- Animation Style -->
+<link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+
+<!-- Favicon and touch icons  -->
+<link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
+<link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+<link href="images/new/logo2.png" rel="shortcut icon">
+
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+
+	<style>
+		.kkb {
+			animation-duration: 4s;
+		}
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+		.mySlides {display: none}
+		img {vertical-align: middle;}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+
+		.active, .dot:hover {
+			background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 3s;
+			animation-name: fade;
+			animation-duration: 3s;
+		}
+
+		@-webkit-keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+		}
+
+		@keyframes fade {
+			from {opacity: .4}
+			to {opacity: 1}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+		}
+	</style>
+</head>
+<body class="header-sticky">
+
+	<!-- Boxed -->
+	<!-- <div class="boxed">
+	<div class="top">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-6">
+	<div class="flat-address">
+	<ul>
+	<li class="address">66 Nicholson St Buffalo New York Us</li>
+</ul>
+</div> /.flat-address
+</div> /.col-md-6
+<div class="col-md-6">
+<div class="top-navigator">
+<ul>
+<li><a href="#">About</a></li>
+<li class="service"><a href="#">Services</a>
+<ul>
+<li><a href="services-architectural-planning.html">Architectural Planning</a></li>
+<li><a href="services-decoration-furniture.html">Decoration &amp; Furniture</a></li>
+<li><a href="services-interior-design.html">Interior Design</a></li>
+<li><a href="services-landscape-design.html">Landscape Design</a></li>
+<li><a href="services-sustainable-design.html">Sustainable Design</a></li>
+<li><a href="services-urban-design.html">Urban Design</a></li>
+</ul>
+</li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>/.top-navigator
+</div> /.col-md-6
+</div> /.row
+</div> /.container
+</div> /.top -->
+
+
+
+<section class="loading-overlay">
+		<div class="Loading-Page">
+				<h2 class="loader">Loading...</h2>
+		</div>
+</section>
+
+<style>
+	.logo {
+		height: 100px;
+		width: 150px;
+		background-image: url(../images/ghbox/logo.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+</style>
+<div class="site-brand">
+		<div class="container">
+				<div class="row">
+						<div class="col-md-12">
+								<div id="logo" class="logo">
+										<a href="index.html" rel="home" style="font-size: 25px">
+											
+										</a>
+								</div><!-- /.logo -->
+								<div class="header-widgets">
+										<div id="text-1" class="widget widget_text">
+												<div class="textwidget">
+														<br>
+														<div class="info-icon">
+																<i class="icon-call-out icons"></i>
+																<div class="content">Call Us Now
+																<br>
+																<span>+233 202 202 020</span>
+																</div>
+														</div>
+												</div>
+										</div>
+										<div id="text-2" class="widget widget_text">
+												<div class="textwidget">
+														<br>
+														<div class="info-icon">
+																<i class="icon-clock icons"></i>
+																<div class="content">Opening times
+																<br>
+																<span>Mon - Fri: 7:30 - 18:00</span></div>
+														</div>
+												</div>
+										</div>
+								</div><!-- /.header-widget -->
+						</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+		</div><!-- /.container -->
+</div><!-- /.site-brand -->
+
+<!-- Header -->
+<header id="header" class="header clearfix">
+		<div class="header-wrap clearfix">
+				<div class="container">
+						<div class="row">
+								<div class="col-md-12">
+										<div class="nav-wrap">
+												<div class="btn-menu">
+														<span></span>
+												</div><!-- /mobile menu button -->
+												<nav id="mainnav" class="mainnav">
+														<ul class="menu">
+																<li class="home">
+																		<a href="//a-mole.com" target="_blank">Home</a>
+																</li>
+																<li class="has-children"><a href="#">Softnage</a>
+																	<ul class="submenu">
+																		<li><a href="#OurTeam">Our Team</a></li>
+																		<!-- <li><a href="values.html">Culture & Values </a></li> -->
+																		<!-- <li><a href="projects-fullwidth.html">Our Portfolio</a></li> -->
+																		<!-- <li><a href="products.html">Our Products</a></li> -->
+																	</ul><!-- /.submenu -->
+																</li>
+																<!--<li class="has-children"><a href="javascript:void(0)">Insights &amp; Controls</a>
+																		<ul class="submenu">
+																			<	<li><a href="webmobapp.html">Application Development</a>
+																				</li>
+																				 <li><a href="digitalbranding.html">Advertising Systems</a>
+																				</li>
+																				<li><a href="ai.html">Server & Cyber Systems</a>>
+																				</li>
+																				 <li><a href="ledads.html">LED Advertising</a>
+																				</li>
+																		</ul> .submenu -->
+																</li>
+																<li class="has-children"><a href="#products">Products</a>
+																		<ul class="submenu">
+																			<!-- <li><a href="javascript:void()"><strong>Advertising Systems</strong></a></li>
+																			<li><a href="https://ashantiweb.com" target="_blank">AshantiWeb</a></li> -->
+																			<li><a href="https://hotelipad.com">Hotelipad</a></li>
+																			<li><a href="https://easybalance.net">Easy Balance</a></li>
+																				<li><a href="https://ed-master.net">Ed-master</a></li>
+																				<!-- <li><a href="iot.html">Advertising Systems</a>
+																				</li> -->
+																				<!-- <li><a href="mlm.html">Technical Training</a>
+																				</li> -->
+																		</ul><!-- /.submenu -->
+																</li>
+
+
+														</ul><!-- /.menu -->
+
+														<div class="social-links">
+																<a href="https://www.facebook.com/softnage" target="_blank">
+																		<i class="fa fa-facebook"></i>
+																</a>
+																<a href="https://www.twitter.com/softnage" target="_blank">
+																		<i class="fa fa-twitter"></i>
+																</a>
+																<a href="https://www.linkedin.com/company/softnage" target="_blank">
+																		<i class="fa fa-linkedin"></i>
+																</a>
+														</div>
+												</nav><!-- /.mainnav -->
+										</div><!-- /.nav-wrap -->
+								</div><!-- /.col-md-12 -->
+						</div><!-- /.row -->
+				</div><!-- /.container -->
+		</div><!-- /.header-wrap -->
+</header><!-- /.header -->
+
+
+
+
+<!-- Slider -->
+<div class="tp-banner-container">
+	<div class="tp-banner">
+		<ul>
+			<li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
+				<img src="images/new/nt.jpg" alt="slider-image" />
+				<div class="tp-caption sfl title-slide center" data-x="30" data-y="147" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
+					Shaping Tomorrow Today <br>
+				</div>
+				<div class="tp-caption sfr desc-slide center" data-x="30" data-y="249" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
+					<p style="font-size:25px ">Research &amp; Evolution<br>
+					</p>
+				</div>
+
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+<!-- <div class="tp-banner-container">
+	<video playsinline autoplay muted loop>
+		<source src="pix2/native.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div> -->
+
+	<!-- Flat imagebox -->
+	<section class="flat-row flat-imagebox pad-bottom20px kkb animated bounceInDown">
+		<div class="container">
+			<h2 style="text-align: center">Developing Innovative Technology Systems </h2><br>
+																						 <div class="row">
+																						 	<!-- <div class="item panel" style="margin: 5px; padding: 5px;">
+		<div class="box-services">
+			<div class="box-services-wrap">
+				<h2 class="title-box-services" style="font-size: 20px;">Our <strong>Specialties</strong> at Amidarr</h2>
+				<p>We have a solid reputation for the production and branding of systems that empower our clients businesses.
+					Our clients benefit greatly from us because we offer a vast number of services, ranging from product development, enterprise solutions
+					to multimedia branding.</p>
+				</div>
+			</div>
+		</div> -->
+																						 	<!-- /.item -->
+																						 	<!-- <div class="item">
+		<div class="imagebox">
+			<div class="box-wrap">
+				<div class="box-image">
+					<div class="box-header">
+						<h4 class="box-title"><a href="services-architectural-planning.html">Systems Development</a></h4>
+					</div>
+					<a href="services-architectural-planning.html"><img src="images/new/service_2.jpg" alt="images" style="width: 400px; height: 170px;"></a>
+				</div>
+				<div class="box-content">
+					<p class="box-desc">We design and build modern, functional and easy to use web and mobile systems that exceed the expectations of our clients and helps their businesses.</p>
+					<div class="flat-button">
+						<a href="services-architectural-planning.html">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+																						 	<!-- /.item -->
+
+																						 	<div class="col-md-4" data-timeout="400">
+																						 		<div class="panel" style="margin: 5px; padding: 5px;">
+
+																						 			<div class="panel-body">
+																						 				<img src="images/new/web.svg" alt="images" style="width: 500px; height: 200px;">
+																						 				<h5 style="text-align: center">Online Systems</h5>
+																						 				<br>
+																						 				<p class="box-desc">
+																						 					We approach Business Technology with concepts and tools
+																						 					that are designed to guide any part of an organization or business in utilising information
+																						 					technology to its fullest.
+																						 				</p>
+																						 			</div>
+																						 		</div>
+																						 	</div>
+																						 	<div class="col-md-4">
+																						 		<div class="panel" style="margin: 5px; padding: 5px;">
+																						 			<div class="panel-body">
+																						 				<img src="images/new/mobile.svg" alt="images" style="width: 300px; height: 200px;">
+																						 				<h5 style="text-align: center">Web &amp; Mobile</h5>
+																						 				<br>
+																						 				<p class="box-desc">
+
+																						 					Using 21st century advertising tools to create awareness about products and services, broadcasting the benefits
+																						 					of specified products and services, via advertising.
+
+																						 			</div>
+																						 		</div>
+																						 	</div>
+																						 	<div class="col-md-4" data-timeout="800">
+																						 		<div class="panel" style="margin: 5px; padding: 5px;">
+																						 			<div class="panel-body">
+																						 				<img src="images/new/isweb.svg" alt="images" style="width: 500px; height: 200px;">
+																						 				<h5 style="text-align: center">Insights &amp; Controls</h5>
+																						 				<br>
+																						 				<p class="box-desc">
+																						 					Researching and Developing systems that safeguards against inconsistencies and unaccountability to keep
+																						 					businesses in check and on track for efficient performances and growth.
+																						 				</p>
+																						 			</div>
+																						 		</div>
+																						 	</div>
+																						 	<section class="homepage-technologies">
+																							 <div class="technologies-intro">
+																								<div class="container">
+																									<h1 id="products" style="text-align:center; margin-top:0px;">Products</h1>
+																									<p style="text-align:center;"> We are RoR experts, but building great products would not be possible without knowledge and extensive usage of many other things, e.g. HaProxy, Nginx, React/Angular, PostgreSQL, Redis, Redshift, AWS, Heroku and many-many more. </p>
+																									 </div>
+																							 </div>
+																							 <div class="domains">
+																								 <div class="container is-wide">
+																									<div class="item is-frontend">
+																										<a href="https://hotelipad.com" target="_blank"><h2>Hotelipad</h2></a>
+																										<img src="./images/new/hotelipad.png" alt="Hotelipad Hotel Management System">
+																											<p>
+																												Easily check your new and repeat guest in, view all information about a guest with a click, all on the same page.
+																												<ul>
+																													<li>-View all checkin financials</li>
+																													<li>-Easily receive payment, print receipts</li>
+																													<li>-Room Transfers, Extend checkouts</li>
+																													<li>-Attach Services, Add guests cost to organisations, conferences etc</li>
+																												</ul>
+																											</p>
+																									</div>
+																									<div class="item is-mobile">
+																										<a href="https://easybalance.net" target="_blank"><h2>Easy Balance</h2> </a>
+																										<img src="./images/new/easybalance.png" alt="Easy Balance Shop management System">
+																										<p>
+																											Manage your Retail/Wholesale shop with our point of sale software:
+																											<ul>
+																												<li>-Know when products are expiring</li>
+																												<li>-Know when products quantity is reducing</li>
+																												<li>-Know when your business is making profit or loss</li>
+																											</ul>
+																										</p>
+																									 </div>
+																									<div class="item is-backend">
+																										<a href="https://ed-master.net" target="_blank"><h2>Ed-master</h2></a>
+																										<img src="./images/new/ed-master.png" alt="Ed-master School Management System">
+																										<p> Execute Institutional Daily Operations, Generate Insightful Reports and Make Better & Faster Decisions all in one flexble and intuitive system. Edmaster is an online school management system software that simplifies any school's academic & administrative processes effortlessly. It is the trusted choice for schools. </p>
+																									</div>
+																								 </div>
+																							 </div>
+																							</section>
+																						 	<section id="OurTeam" class="flat-row about pad-top0px">
+																						 		<div class="container">
+																						 			<div class="row" style="height:auto;">
+																						 				<div class="col-md-6">
+																											<div class="image-single">
+																												<img src="images/new/a-mole.jpg" alt="image">
+																											</div>
+																						 				</div><!-- /.col-md-6 -->
+
+																						 				<div class="col-md-6">
+																						 					<div class="about-right">
+																						 						<h5 style="text-align: justify;">
+																						 							At <b>Softnage</b> we design systems and tools to support start-ups to Multinationals.
+																						 							Our Technology and Management Systems are meant to help our clients maintain
+																						 							a superior position in the marketplace. We put out workable solutions as we are also in the
+																						 							business space, running www.ghkart.com and www.edu-gh.net.
+																						 							We are in the Temple as Native Nerds ensuring Sustainable Business Development.
+																						 					</div>
+																						 				</div><!-- /.col-md-6 -->
+																						 			</div><!-- /.row -->
+
+																						 			<div class="flat-divider d50px"></div>
+
+																						 			<div class="row">
+																						 				<div class="col-md-8 col-md-offset-2">
+																						 					<div class="our-story">
+																						 						<h4 class="title">At Softnage ;</h4>
+																						 						<p class="content" style="text-align: justify;">
+																						 							"We Dont Have To Be SMARTER Than THE REST; <br>We Have To Be More DISCIPLINED Than THE REST"
+																						 							<br> Warren Buffett.
+																						 					</div>
+
+																						 					<div class="flat-divider d50px"></div>
+
+
+																						 				</div><!-- /.col-md-2 -->
+
+																						 			</div><!-- /.row -->
+
+
+
+																						 		</div><!-- /.container -->
+																						 	</section>
+																						 	<!-- <div class="item">
+		<div class="imagebox">
+			<div class="box-wrap">
+				<div class="box-image">
+					<div class="box-header">
+						<h4 class="box-title"><a href="services-decoration-furniture.html">Multimedia</a></h4>
+					</div>
+					<a href="services-decoration-furniture.html"><img src="images/new/service_3.jpg" alt="images" style="width: 400px; height: 170px;"></a>
+				</div>
+				<div class="box-content">
+					<p class="box-desc">We empower our clients with top-notch multimedia branding.
+						We provide them with graphics assets and cool animations to bring their brands to life.
+					</p>
+					<div class="flat-button">
+						<a href="services-decoration-furniture.html">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+																						 	<!-- /.item -->
+																						 	<!-- <div class="item">
+		<div class="imagebox">
+			<div class="box-wrap">
+				<div class="box-image">
+					<div class="box-header">
+						<h4 class="box-title"><a href="services-landscape-design.html">Enterprise Solutions</a></h4>
+					</div>
+					<a href="services-landscape-design.html"><img src="images/new/service_1.jpg" alt="images" style="width: 400px; height: 170px;"></a>
+				</div>
+				<div class="box-content">
+					<p class="box-desc">Every business has unique processes. But ultimately, every business needs modern technology with comprehensive business functionality.</p>
+					<div class="flat-button">
+						<a href="services-landscape-design.html">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+																						 	<!-- /.item -->
+																						 </div><!-- /.row -->
+					</div><!-- /.container -->
+				</section>
+
+				<section class="flat-row pad-bottom40px animated slideInRight" style="background-color: #2a2a2a;">
+					<div class="container">
+						<div class="row">
+							<div class="title-section">
+								<h2 class="title">&nbsp;&nbsp;&nbsp; Why choose us?..</h2>
+							</div><!-- /.title-section -->
+						</div><!-- /.row -->
+
+
+						<div class="row">
+							<div class="flat-iconbox">
+								<div class="item">
+									<div class="iconbox ">
+										<div class="box-header">
+											<div class="box-icon"><i class="fa icons icon-diamond"></i></div>
+											<h5 class="box-title">Experienced</h5>
+										</div>
+										<p class="box-content">
+											We have expertise to deliver precisely on our promises.</p>
+										</div>
+									</div><!-- /.item -->
+
+									<div class="item">
+										<div class="iconbox ">
+											<div class="box-header">
+												<div class="box-icon"><i class="fa icons icon-chart"></i></div>
+												<h5 class="box-title">Superior Quality</h5>
+											</div>
+											<p class="box-content">
+												Quality is our hallmark. We provide our clients with quality works.
+											</p>
+										</div>
+									</div><!-- /.item -->
+
+									<div class="item">
+										<div class="iconbox ">
+											<div class="box-header">
+												<div class="box-icon"><i class="fa icons icon-trophy"></i></div>
+												<h5 class="box-title">Honest &amp; Reliable</h5>
+											</div>
+											<p class="box-content">
+												We meet commitments and exceed expectations of our clients.
+											</p>
+										</div>
+									</div><!-- /.item -->
+
+									<div class="item">
+										<div class="iconbox color">
+											<div class="box-header">
+												<div class="box-icon"><i class="fa icons icon-layers"></i></div>
+												<h5 class="box-title">In need of our Service or Support?</h5>
+											</div>
+											<div class="flat-button cl-white">
+												<a href="contact.html">Contact Us</a>
+											</div>
+										</div>
+									</div><!-- /.item -->
+								</div><!-- /.iconbox -->
+							</div><!-- /.row -->
+						</div><!-- /.container -->
+					</section>
+
+					<div class="flat-divider d40px"></div>
+
+					<!-- <div class="container-fluid" style="display: flex; justify-content: center; align-items: center;">
+						<h2>Client References:</h2>
+					</div>
+
+					<div class="flat-divider d40px"></div>
+
+					<div class="container-fluid" style="display: flex; justify-content: center; align-items: center;">
+						<div class="w-75 h-75">
+							<div class="carousel slide" id="carouselExample" data-ride="carousel">
+								<ul class="carousel-indicators">
+									<li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExample" data-slide-to="1" ></li>
+									<li data-target="#carouselExample" data-slide-to="2" ></li>
+									<li data-target="#carouselExample" data-slide-to="3" ></li>
+									<li data-target="#carouselExample" data-slide-to="4" ></li>
+									<li data-target="#carouselExample" data-slide-to="5" ></li>
+									<li data-target="#carouselExample" data-slide-to="6" ></li>
+									<li data-target="#carouselExample" data-slide-to="7" ></li>
+									<li data-target="#carouselExample" data-slide-to="8" ></li>
+									<li data-target="#carouselExample" data-slide-to="9" ></li>
+									<li data-target="#carouselExample" data-slide-to="10" ></li>
+									<li data-target="#carouselExample" data-slide-to="11" ></li>
+									<li data-target="#carouselExample" data-slide-to="12" ></li>
+									<li data-target="#carouselExample" data-slide-to="13" ></li>
+									<li data-target="#carouselExample" data-slide-to="14" ></li>
+									<li data-target="#carouselExample" data-slide-to="15" ></li>
+									<li data-target="#carouselExample" data-slide-to="16" ></li>
+									<li data-target="#carouselExample" data-slide-to="17" ></li>
+									<li data-target="#carouselExample" data-slide-to="18" ></li>
+									<li data-target="#carouselExample" data-slide-to="19" ></li>
+									<li data-target="#carouselExample" data-slide-to="20" ></li>
+								</ul>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img style="vertical-align:middle;" src="pix/a--efah.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/ics.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/gbc.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/Noda.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/tusand.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/obrad.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/royal-max.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/power.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/pan.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/pag.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/outlook.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/shining-star.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/wapma.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/nma.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/donyna.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/CEL.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/britak.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/ATASO.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/ako.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/akaa.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+									<div class="carousel-item">
+										<img style="vertical-align:middle;" src="pix/and.jpg" alt="" class="d-block w-100 h-100">
+									</div>
+								</div>
+								<a href="#carouselExample" class="carousel-control-prev" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a href="#carouselExample" class="carousel-control-next" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				-->
+
+				<section class="flat-row pad-bottom100px">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="main-text">
+									<h3 class="title">Strong Action Plans to create Wow Moments</h3>
+									<p>Our team can take over everything, from an idea and concept development to realization.
+										We believe in traditions and incorporate them within our innovations.
+										All our projects has unique systems and functional solutions.
+									</p>
+								</div>
+
+								<div class="flat-divider d50px"></div>
+
+								<div class="flat-counter">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="counter">
+												<div class="counter-image"><i class="fa icons icon-layers"></i></div>
+												<div class="numb-count" data-to="100" data-speed="30" data-waypoint-active="yes">100+</div>
+												<div class="counter-title">
+													<strong>High-End</strong> Systems completed to meet our customer's Expectations.
+												</div>
+											</div>
+										</div><!-- /.col-md-4 -->
+										<div class="col-md-4">
+											<div class="counter">
+												<div class="counter-image"><i class="fa icons icon-clock"></i></div>
+												<div class="numb-count" data-to="2125" data-speed="30" data-waypoint-active="yes">2125</div>
+												<div class="counter-title">
+													<strong>Working Hours</strong> in the last year with passion to deliver quality services.
+												</div>
+											</div>
+										</div><!-- /.col-md-4 -->
+										<div class="col-md-4">
+											<div class="counter">
+												<div class="counter-image"><i class="fa icons icon-people"></i></div>
+												<div class="numb-count" data-to="15" data-speed="30" data-waypoint-active="yes">15+</div>
+												<div class="counter-title">
+													<strong>Members</strong> working tirelessly to deliver the best technology solutions.
+												</div>
+											</div>
+										</div><!-- /.col-md-4 -->
+									</div><!-- /.row -->
+								</div>
+							</div><!-- /.col-md-6 -->
+
+							<div class="col-md-6">
+								<div class="quick-form" style="background-color:black; margin-top: 35px; height: 400px;">
+									<video width="100%" height="100%" controls autoplay loop>
+										<source src="/images/new/nt-animation.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+										<!-- <h3>Hire Us For Your Project Now!</h3>
+											<p>Please tell us about your project, idea or concept. Amidarr representative will walk you through our service options.</p>
+											<form id="contactform" method="post" action="contact/process.php">
+												<div class="row">
+													<div class="col-md-6">
+														<p><input name="author" type="text" value="" placeholder="Your Name" required="required"></p>
+														<p><textarea name="comment" placeholder="Message" required="required"></textarea></p>
+													</div>
+
+													<div class="col-md-6">
+														<p><input id="email" name="email" type="email" value="" placeholder="Your Email" required="required"></p>
+														<p><input id="phone" name="phone" type="text" value="" placeholder="Phone Number" required="required"></p>
+														<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" placeholder="Briefly describe your project to us">
+														</p>
+													</div>
+												</div>
+											</form> -->
+										</div>
+									</div><!-- /.col-md-6 -->
+								</div><!-- /.row -->
+							</div><!-- ./container -->
+						</section>
+
+
+						<!-- Footer -->
+<footer class="footer">
+	<div class="footer-widgets">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="widget widget_text">
+						<h3 class="widget-title">About Us</h3>
+						<div class="textwidget">
+							<p>We believe that all those who come to us must be served with integrity. As such, our clients are assured of reliable services.</p>
+						</div>
+					</div>
+				</div><!-- /.col-md-3 -->
+
+				<div class="col-md-9">
+					<div class="widget widget_nav_menu">
+						<h3 class="widget-title">Services</h3>
+						<div class="menu-services-container">
+							<ul class="menu" style="float: left; margin: 10px;">
+								<li><a href="webapp.html">Web Applications</a></li>
+								<li><a href="mobileapp.html">Mobile Applications</a></li>
+							</ul>
+							<ul class="menu" style="float: left; margin: 10px;">
+								<li><a href="ai.html">Artificial Intelligence</a></li>
+								<li><a href="iot.html">Digital Marketting</a></li>
+							</ul>
+							<ul class="menu" style="float: left; margin: 10px;">
+								<li><a href="education.html">Education</a></li>
+							</ul>
+							<!-- <ul class="menu" style="float: left; margin: 10px;">
+								<li><a href="uxui.html">Photo Gallery</a></li>
+								<li><a href="digitalbranding.html">Digital Media</a></li>
+								<li><a href="cybersec.html">Cyber Security</a></li>
+							</ul> -->
+						</div>
+					</div><!-- /.widget_nav_menu -->
+				</div><!-- /.col-md-9 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.footer-widgets -->
+
+	<div class="footer-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="social-links">
+						<a href="https://www.facebook.com/softnage" target="_blank">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a href="https://www.twitter.com/softnage" target="_blank">
+							<i class="fa fa-twitter"></i>
+						</a>
+						<a href="https://www.linkedin.com/company/softnage" target="_blank">
+							<i class="fa fa-linkedin"></i>
+						</a>
+					</div>
+
+					<div class="copyright">
+						<div class="copyright-content">
+							Copyright © 2022 Softnage
+						</div>
+					</div>
+				</div><!-- /.col-md-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.footer-content -->
+</footer>
+
+<!-- Go Top -->
+<a class="go-top">
+	<i class="fa fa-chevron-up"></i>
+</a>
+
+</div>
+
+<!-- Javascript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascript/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.easing.js"></script>
+<script type="text/javascript" src="javascript/imagesloaded.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="javascript/owl.carousel.js"></script>
+<script type="text/javascript" src="javascript/jquery-countTo.js"></script>
+<script type="text/javascript" src="javascript/jquery-waypoints.js"></script>
+<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+<script type="text/javascript" src="javascript/jquery-validate.js"></script>
+<script type="text/javascript" src="javascript/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="javascript/parallax.js"></script>
+<script type="text/javascript" src="javascript/jquery.countdown.js"></script>
+<script type="text/javascript" src="javascript/jquery.sticky.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+<script type="text/javascript" src="javascript/main.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+
+<!-- Revolution Slider -->
+<script type="text/javascript" src="javascript/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="javascript/slider.js"></script>
+<script type='text/javascript'>
+	if (document.querySelectorAll('a[href^=\'#\']')) {
+		document.querySelectorAll('a[href^=\'#\']').forEach(anchor =>
+			anchor.addEventListener('click', e => {
+				e.preventDefault();
+				document.querySelector(anchor.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+			}));
+	}
+</script>
+
+
+
+					</body>
+					</html>

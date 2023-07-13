@@ -9,12 +9,12 @@
       </div>
       <div class="foot-services">
          <h2>Services</h2>
-         <a href="">Softnage</a>
+         <a href="">Digital & Outdoor</a>
 
-         <a href="">Fasternd</a>
+         <a href="">Web & Systems</a>
 
 
-         <a href="">GhBox</a>
+         <a href="">Technical & Support</a>
       </div>
    </div>
 </footer>

@@ -1,0 +1,895 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<title>- Fastnerd - Technical & Support </title>
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+	<!-- Theme Style -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<!--Technologies-->
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/newtech.css" />
+
+	<!-- Responsive -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+
+	<!-- Colors -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+
+	<!-- Animation Style -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+
+	<!-- Favicon and touch icons  -->
+	<link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
+	<link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+	<link href="images/new/logo2.png" rel="shortcut icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+
+	<style>
+		.kkb {
+			animation-duration: 4s;
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body {
+			font-family: Verdana, sans-serif;
+			margin: 0
+		}
+
+		.mySlides {
+			display: none
+		}
+
+		img {
+			vertical-align: middle;
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+
+		/* Next & previous buttons */
+		.prev,
+		.next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+
+		.active,
+		.dot:hover {
+			background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 3s;
+			animation-name: fade;
+			animation-duration: 3s;
+		}
+
+		@-webkit-keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+
+			.prev,
+			.next,
+			.text {
+				font-size: 11px
+			}
+		}
+	</style>
+</head>
+
+<body class="header-sticky">
+	<section class="loading-overlay">
+		<div class="Loading-Page">
+			<h2 class="loader">Loading...</h2>
+		</div>
+	</section>
+<style>
+	.logo {
+		height: 100px;
+		width: 150px;
+		background-image: url(../images/ghbox/logo.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+</style>
+
+	<div class="site-brand">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="logo" class="logo">
+						<a href="index.html" rel="home" style="font-size: 25px">
+						
+						</a>
+					</div><!-- /.logo -->
+					<div class="header-widgets">
+						<div id="text-1" class="widget widget_text">
+							<div class="textwidget">
+								<br>
+								<div class="info-icon">
+									<i class="icon-call-out icons"></i>
+									<div class="content">Call Us Now
+										<br>
+										<span>+233 202 202 020</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="text-2" class="widget widget_text">
+							<div class="textwidget">
+								<br>
+								<div class="info-icon">
+									<i class="icon-clock icons"></i>
+									<div class="content">Opening times
+										<br>
+										<span>Mon - Fri: 7:30 - 18:00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.header-widget -->
+				</div><!-- /.col-md-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.site-brand -->
+
+	<!-- Header -->
+	<header id="header" class="header clearfix">
+		<div class="header-wrap clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="nav-wrap">
+							<div class="btn-menu">
+								<span></span>
+							</div><!-- /mobile menu button -->
+							<nav id="mainnav" class="mainnav">
+								<ul class="menu">
+									<li class="home">
+										<a href="//a-mole.com" target="_blank">Home</a>
+									</li>
+									<li class="has-children"><a href="#">Fastnerd</a>
+										<ul class="submenu">
+											<li><a href="#OurTeam">Our Team</a></li>
+										</ul><!-- /.submenu -->
+									</li>
+									<li class="has-children"><a href="#products">Products</a>
+										<ul class="submenu">
+											<li><a href="#is-cctv">CCTV</a></li>
+											<li><a href="#is-access">Access Control</a></li>
+											<li><a href="#is-telephone">Telephony Systems</a></li>
+											<li><a href="#is-time">Time & Attendance Systems</a></li>
+											<li><a href="#is-fencing">Fencing Systems</a></li>
+											<li><a href="#is-motion">Motion & Detection  Systems</a></li>
+										</ul><!-- /.submenu -->
+									</li>
+									<li class="has-children"><a href="#services">Services</a>
+										<ul class="submenu">
+											<li><a href="#is-installation">Installation & Support </a></li>
+											<li><a href="#is-repairs">Repairs & Configuration</a></li>
+											<li><a href="#is-outdoor">Outdoor & Promotions</a></li>
+										</ul><!-- /.submenu -->
+									</li>
+								</ul><!-- /.menu -->
+								
+								<div class="social-links">
+									<a href="https://www.facebook.com/Fastnerd" target="_blank">
+										<i class="fa-brands fa-facebook-f"></i>
+									</a>
+									<a href="https://www.twitter.com/Fastnerd" target="_blank">
+										<i class="fa-brands fa-twitter"></i>
+									</a>
+									<a href="https://www.linkedin.com/company/Fastnerd" target="_blank">
+										<i class="fa-brands fa-linkedin-in"></i>
+									</a>
+								</div>
+							</nav><!-- /.mainnav -->
+						</div><!-- /.nav-wrap -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.header-wrap -->
+	</header><!-- /.header -->
+
+	<!-- Slider -->
+	<div class="tp-banner-container">
+		<div class="tp-banner">
+			<ul>
+				<li data-transition="random-static" data-slotamount="7" data-masterspeed="1000"
+					data-saveperformance="on">
+					<img src="images/new/nt.jpg" alt="slider-image" />
+					<div class="tp-caption sfl title-slide center" data-x="30" data-y="147" data-speed="1000"
+						data-start="1000" data-easing="Power3.easeInOut">
+						Providing Timeless Technological Solutions <br>
+					</div>
+					<div class="tp-caption sfr desc-slide center" data-x="30" data-y="249" data-speed="1000"
+						data-start="1500" data-easing="Power3.easeInOut">
+						<p style="font-size:25px ">Technology &amp; Security<br>
+						</p>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Flat imagebox -->
+	<section class="flat-row flat-imagebox pad-bottom20px kkb animated bounceInDown">
+		<div class="container">
+			<h2 style="text-align: center; color:#0e1b3b;">Providing Electronic Security Systems & Solutions</h2><br>
+			<div class="row">
+				<div class="col-md-4" data-timeout="400">
+					<div class="panel" style="margin: 5px; padding: 5px;">
+						<div class="panel-body">
+							<img src="./images/new/home.png" alt="Home Svg here" style="width: 500px; height: 200px;">
+							<h5 style="text-align: center; color:#fff;">Homes</h5>
+							<br>
+							<p class="box-desc">
+								Your home is your sanctuary, and we are dedicated to 
+								fortifying its security. Our electronic security systems 
+								for homes combine cutting-edge technology with user-friendly 
+								features to offer comprehensive protection. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel" style="margin: 5px; padding: 5px;">
+						<div class="panel-body">
+							<img src="./images/new/office.png" alt="Office svg here"
+								style="width: 300px; height: 200px;">
+							<h5 style="text-align: center; color:#fff;">Offices</h5>
+							<br>
+							<p class="box-desc">
+								Our electronic security systems for offices provide robust solutions 
+								to safeguard your assets, confidential data, and intellectual property. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4" data-timeout="800">
+					<div class="panel" style="margin: 5px; padding: 5px;">
+						<div class="panel-body">
+							<img src="./images/new/industry.png" alt="industry svg here"
+								style="width: 500px; height: 200px;">
+							<h5 style="text-align: center; color:#fff;">Industries</h5>
+							<br>
+							<p class="box-desc">
+								With our industry-specific expertise, we help you mitigate 
+								risks, prevent unauthorized access, and safeguard your 
+								valuable assets, ensuring the smooth operation and continuity 
+								of your industrial processes.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="flat-divider d40px"></div>
+
+
+	<section class="" style="color: #0e1b3b;">
+		<div class="technologies-intro">
+			<div class="container">
+				<h1 id="products" style="text-align:center; margin-top:0px; color: #0e1b3b;">Products</h1>
+				<p style="text-align:center;">
+					We are dedicated to providing innovative security solutions to protect your assets,
+					ensure safety, and deliver peace of mind. Our comprehensive range of cutting-edge
+					security products is designed to meet the diverse needs of individuals and organizations
+					alike.
+				</p>
+			</div>
+		</div>
+		<div class="products-section">
+			<div class="p-pducts">
+				<div class="l-pducts" id="is-cctv" style="display:flex;">
+					<div class="is-product-text" style=" width:50%;">
+						<div class="txt">
+							<h2>Closed Circuit Television (CCTV)</h2>
+							<p>
+								Our state-of-the-art CCTV systems provide unparalleled surveillance
+								capabilities to protect your premises. With high-resolution cameras,
+								real-time monitoring, and intelligent analytics, our CCTV solutions
+								empower you to deter and detect security breaches effectively.
+								Gain peace of mind knowing that our advanced CCTV technology keeps a
+								watchful eye on your property, providing valuable evidence when needed.
+							</p>
+						</div>
+					</div>
+					<div class="is-product-image" style=" width:40%;">
+						<div class="imig">
+							<img src="./images/new/is-cctv.png" alt="Hotelipad Hotel Management System" width="100%"
+								height="100%">
+						</div>
+					</div>
+
+				</div>
+				<div class="r-pducts" id="is-access">
+					<div class="is-product-image" style="width:40%;">
+						<div class="imig">
+							<img src="./images/new/is-access-control.png" alt="Access Control System image">
+						</div>
+					</div>
+					<div class="is-product-text" style="width:50%;">
+						<div class="txt">
+							<h2>Access Control Systems </h2>
+							<p>
+								Controlling access to restricted areas is crucial for maintaining a
+								secure environment. Our Access Control Systems utilize cutting-edge
+								biometric authentication, keycards, and PIN codes to ensure only authorized
+								individuals can enter designated areas. With our solutions, you can prevent
+								unauthorized access, safeguard valuable assets, and maintain a comprehensive
+								audit trail for accountability and investigation purposes.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="l-pducts" id="is-telephone">
+					<div class="is-product-text">
+						<div class="txt">
+							<a href="" target="_blank">
+								<h2>Telephone Systems</h2>
+							</a>
+							<p>
+								Efficient communication is vital for effective security operations.
+								Our Telephony Systems enable seamless communication between security
+								personnel, staff, and visitors, ensuring rapid response and coordination
+								during emergencies. Whether it's IP-based phone systems, intercoms, or
+								emergency communication devices, our telephony solutions integrate seamlessly
+								into your security infrastructure, enhancing overall operational efficiency.
+							</p>
+						</div>
+					</div>
+					<div class="is-product-image" style=" width:40%;">
+						<div class="imig">
+							<img src="./images/new/is-b-telephone.png" alt="Telephony System">
+						</div>
+					</div>
+				</div>
+				<div class="r-pducts " id="is-time">
+					<div class="is-product-image">
+						<div class="imig">
+							<img src="./images/new/is-time-attendance.png" alt="Biometric Attendance Image">
+						</div>
+					</div>
+					<div class="is-product-text">
+						<div class="txt">
+							<h2>Time & Attendance Solutions </h2>
+							<p>
+								Managing employee attendance is simplified with our
+								Time & Attendance Solutions. By employing biometric identification,
+								swipe cards, or PIN codes, our systems accurately record entry and
+								exit times, improving payroll accuracy and preventing time theft.
+								Seamlessly integrated with access control systems, our solutions
+								streamline your security and operational processes.
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="l-pducts " id="is-fencing">
+					<div class="is-product-text">
+						<div class="txt">
+							<h2>Fencing Systems</h2>
+							<p>
+								Protecting your premises begins with a robust perimeter security solution.
+								Our customizable Fencing Systems provide physical barriers that deter
+								unauthorized access. From chain-link fencing to electrified options,
+								razor wire, or anti-climb features, we tailor our fencing systems to meet
+								your specific security requirements. With our solutions, you can safeguard your
+								assets, facilities, and personnel from external threats.
+							</p>
+						</div>
+					</div>
+					<div class="is-product-image">
+						<div class="imig">
+							<img src="./images/new/is-fencing.png" alt="Fencing System Image">
+						</div>
+					</div>
+				</div>
+				<div class="r-pducts " id="is-motion">
+					<div class="is-product-image">
+						<div class="imig">
+							<img src="./images/new/is-motion-detection.png" alt="Motion Detection System Image">
+						</div>
+					</div>
+					<div class="is-product-text">
+						<div class="txt">
+							<h2>Motion & Detection Systems</h2>
+							<p>
+								Our Motion and Detection Systems utilize advanced technologies to detect
+								unauthorized movement within designated areas. With motion sensors,
+								infrared detectors, or laser beams, we ensure prompt alarms, notifications,
+								and activation of other security measures in response to suspicious activities.
+								Our systems provide continuous monitoring, making them ideal for critical
+								infrastructure sites and high-security facilities.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="flat-divider d40px"></div>
+
+	<section class="flat-row pad-bottom40px animated slideInRight" style="background-color: #0e1b3b;">
+		<div class="container">
+			<div class="row">
+				<div class="title-section">
+					<h2 class="title" id="services">&nbsp;&nbsp;&nbsp; Services</h2>
+				</div><!-- /.title-section -->
+			</div><!-- /.row -->
+			<div class="s-row">
+				<div class="flat-iconbox">
+					<div class="s-item">
+						<div class="iconbox ">
+							<div class="s-box-header">
+								<div>
+									<img src="images/new/installation.png" alt="images"
+										style="width: 50px; height: 50px;">
+								</div>
+								<div>
+									<h5 class="box-title" id="is-installation">Installation & Support</h5>
+									<p class="box-content">
+										Our skilled professionals are trained to handle the installation of security
+										systems with precision and expertise. We work closely with you to understand
+										your requirements and design a customized installation plan that fits your
+										needs. From CCTV systems to access control solutions, our team ensures
+										seamless integration and optimal placement of equipment. Once installed,
+										we offer ongoing support to address any inquiries, provide system updates, and
+										ensure smooth operations for your security infrastructure.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.s-item -->
+					<div class="s-item">
+						<div class="iconbox ">
+							<div class="s-box-header">
+								<img src="images/new/team.png" alt="images" width="50px" height="50px">
+								<h5 class="box-title" id="is-repairs">Repairs & Configuration</h5>
+								<p class="box-content">
+									In the event of a system malfunction or component failure,
+									our experienced technicians are readily available to diagnose
+									and repair the issue promptly. We understand the critical nature
+									of security systems and strive to minimize downtime. Our technicians
+									are well-versed in repairing various security products, including CCTV
+									cameras, access control devices, and motion detection systems.
+									Additionally, we provide configuration services to optimize system
+									performance, ensuring your security infrastructure operates at its full potential.
+								</p>
+							</div>
+						</div>
+					</div><!-- /.s-item -->
+
+					<div class="s-item">
+						<div class="iconbox ">
+							<div class="s-box-header">
+								<img src="./images/new/outdoor.png" alt="outdoor" width="50px" height="50px">
+								<h5 class="box-title" id="is-outdoor">Outdoor &amp; Promotions</h5>
+								<p class="box-content">
+									Securing outdoor areas and promoting your business simultaneously
+									requires specialized solutions. Our expertise extends beyond
+									traditional security systems to cater to your outdoor needs.
+									We offer advanced outdoor security options such as perimeter
+									fencing, outdoor surveillance cameras, and integrated lighting
+									solutions to ensure comprehensive protection. Moreover,
+									we provide promotional services, including digital signage,
+									public address systems, and advertising displays, enabling you to
+									effectively showcase your brand while maintaining a secure environment.
+								</p>
+							</div>
+						</div>
+					</div><!-- /.s-item -->
+
+					<div class="s-item">
+						<div class="iconbox color">
+							<div class="s-box-header">
+								<div class="box-icon">
+									<i class="fa-solid fa-layer-group"></i>
+								</div>
+								<h5 class="box-title">In need of our Service or Support?</h5>
+								<div class="flat-button cl-white">
+									<a href="contact.html">Contact Us</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.s-item -->
+				</div><!-- /.iconbox -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
+
+	<div class="flat-divider d40px"></div>
+
+	<section id="OurTeam" class="flat-row about pad-top0px">
+		<div class="container">
+			<div class="row" style="height:auto;">
+				<div class="col-md-6">
+					<div class="image-single">
+						<img src="" alt="Team Image">
+					</div>
+				</div><!-- /.col-md-6 -->
+				<div class="col-md-6">
+					<div class="about-right">
+						<h5 style="text-align: justify;">
+							At <b>Fastnerd</b>, we are dedicated to providing innovative security solutions to protect
+							your assets, ensure safety, and deliver peace of mind. Our comprehensive range of
+							cutting-edge security products is designed to meet the diverse needs of individuals and
+							organizations alike. From advanced CCTV systems and access control solutions to telephony
+							systems, time and attendance solutions, fencing systems, and motion and detection systems,
+							we offer the latest technologies that empower you to create a secure environment. With our
+							products, you can stay one step ahead of potential threats, deter unauthorized access, and
+							effectively monitor activities within your premises.
+						</h5>
+					</div>
+				</div><!-- /.col-md-6 -->
+			</div><!-- /.row -->
+			<div class="flat-divider d50px"></div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="our-story">
+						<h4 class="title">At Fastnerd;</h4>
+						<p class="content" style="text-align: justify;">
+							"We Dont Have To Be SMARTER Than THE REST; <br>We Have To Be More DISCIPLINED Than THE REST"
+							<br> Warren Buffett.
+						</p>
+					</div>
+					<div class="flat-divider d50px"></div>
+				</div><!-- /.col-md-2 -->
+			</div><!-- /.row -->
+		</div>
+		</div><!-- /.container -->
+	</section>
+
+	<section class="flat-row pad-bottom40px animated slideInRight" style="background-color: #0e1b3b;">
+		<div class="container">
+			<div class="row">
+				<div class="title-section">
+					<h2 class="title">&nbsp;&nbsp;&nbsp; Why choose us?..</h2>
+				</div><!-- /.title-section -->
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="flat-iconbox">
+					<div class="item">
+						<div class="iconbox ">
+							<div class="box-header">
+								<div class="box-icon"><i class="fa icons icon-diamond"></i></div>
+								<h5 class="box-title">Experienced</h5>
+								<p class="box-content">
+									We have expertise to deliver precisely on our promises.
+								</p>
+							</div>
+						</div>
+					</div><!-- /.item -->
+					<div class="item">
+						<div class="iconbox ">
+							<div class="box-header">
+								<div class="box-icon"><i class="fa icons icon-chart"></i></div>
+								<h5 class="box-title">Superior Quality</h5>
+								<p class="box-content">
+									Quality is our hallmark. We provide our clients with quality works.
+								</p>
+							</div>
+						</div>
+					</div><!-- /.item -->
+
+					<div class="item">
+						<div class="iconbox ">
+							<div class="box-header">
+								<div class="box-icon"><i class="fa icons icon-trophy"></i></div>
+								<h5 class="box-title">Honest &amp; Reliable</h5>
+								<p class="box-content">
+									We meet commitments and exceed expectations of our clients.
+								</p>
+							</div>
+						</div>
+					</div><!-- /.item -->
+
+					<div class="item">
+						<div class="iconbox color">
+							<div class="box-header">
+								<div class="box-icon"><i class="fa icons icon-layers"></i></div>
+								<h5 class="box-title">In need of our Service or Support?</h5>
+								<div class="flat-button cl-white">
+									<a href="contact.html">Contact Us</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.item -->
+				</div><!-- /.iconbox -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
+
+	<div class="flat-divider d40px"></div>
+
+	<section class="flat-row pad-bottom100px">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="main-text">
+						<h3 class="title">Strong Action Plans to create Wow Moments</h3>
+						<p>At Fastnerd, we attribute our success not only to our top-notch security solutions but
+							also to the positive work ethics that drive our team. Our commitment to upholding the
+							highest standards of integrity, professionalism, and transparency has enabled us to excel in
+							our dealings with clients. We believe that building strong relationships is paramount, and
+							our dedicated team goes above and beyond to understand our clients' unique needs, provide
+							personalized solutions, and deliver exceptional customer service
+						</p>
+					</div>
+
+					<div class="flat-divider d50px"></div>
+
+					<div class="flat-counter">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="counter">
+									<div class="counter-image"><i class="fa icons icon-layers"></i></div>
+									<div class="numb-count" data-to="100" data-speed="30" data-waypoint-active="yes">
+										100+</div>
+									<div class="counter-title">
+										<strong>High-End</strong> Systems completed to meet our customer's Expectations.
+									</div>
+								</div>
+							</div><!-- /.col-md-4 -->
+							<div class="col-md-4">
+								<div class="counter">
+									<div class="counter-image"><i class="fa icons icon-clock"></i></div>
+									<div class="numb-count" data-to="2125" data-speed="30" data-waypoint-active="yes">
+										2125</div>
+									<div class="counter-title">
+										<strong>Working Hours</strong> in the last year with passion to deliver quality
+										services.
+									</div>
+								</div>
+							</div><!-- /.col-md-4 -->
+							<div class="col-md-4">
+								<div class="counter">
+									<div class="counter-image"><i class="fa icons icon-people"></i></div>
+									<div class="numb-count" data-to="15" data-speed="30" data-waypoint-active="yes">15+
+									</div>
+									<div class="counter-title">
+										<strong>Members</strong> working tirelessly to deliver the best security
+										solutions.
+									</div>
+								</div>
+							</div><!-- /.col-md-4 -->
+						</div><!-- /.row -->
+					</div>
+				</div><!-- /.col-md-6 -->
+
+				<div class="col-md-6">
+					<div class="quick-form" style="background-color:black; margin-top: 35px; height: 400px;">
+						<video width="100%" height="100%" controls autoplay loop>
+							<source src="/images/new/nt-animation.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</div><!-- /.col-md-6 -->
+			</div><!-- /.row -->
+		</div><!-- ./container -->
+	</section>
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer-widgets">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="widget widget_text">
+							<h3 class="widget-title">About Us</h3>
+							<div class="textwidget">
+								<p>We believe that all those who come to us must be served with integrity. As such, our
+									clients are assured of reliable services.</p>
+							</div>
+						</div>
+					</div><!-- /.col-md-3 -->
+
+					<div class="col-md-9">
+						<div class="widget widget_nav_menu">
+							<h3 class="widget-title">Services</h3>
+							<div class="menu-services-container">
+								<ul class="menu" style="float: left; margin: 10px;">
+									<li><a href="#is-installation">Installation & Support</a></li>
+									<li><a href="#is-repairs">Repairs &amp; Configuration</a></li>
+									<li><a href="#is-outdoor">Outdoor &amp; Promotions</a></li>
+								</ul>
+							</div>
+						</div><!-- /.widget_nav_menu -->
+					</div><!-- /.col-md-9 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.footer-widgets -->
+
+		<div class="footer-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="social-links">
+							<a href="https://www.facebook.com/Fastnerd" target="_blank">
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+							<a href="https://www.twitter.com/Fastnerd" target="_blank">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+							<a href="https://www.linkedin.com/company/Fastnerd" target="_blank">
+								<i class="fa-brands fa-linkedin-in"></i>
+							</a>
+						</div>
+
+						<div class="copyright">
+							<div class="copyright-content">
+								Copyright © 2023 Fastnerd
+							</div>
+						</div>
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.footer-content -->
+	</footer>
+
+	<!-- Go Top -->
+	<a class="go-top">
+		<i class="fa fa-chevron-up"></i>
+	</a>
+
+	</div>
+
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.easing.js"></script>
+	<script type="text/javascript" src="javascript/imagesloaded.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="javascript/owl.carousel.js"></script>
+	<script type="text/javascript" src="javascript/jquery-countTo.js"></script>
+	<script type="text/javascript" src="javascript/jquery-waypoints.js"></script>
+	<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+	<script type="text/javascript" src="javascript/jquery-validate.js"></script>
+	<script type="text/javascript" src="javascript/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="javascript/parallax.js"></script>
+	<script type="text/javascript" src="javascript/jquery.countdown.js"></script>
+	<script type="text/javascript" src="javascript/jquery.sticky.js"></script>
+	<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+	<script type="text/javascript" src="javascript/main.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+
+	<!-- Revolution Slider -->
+	<script type="text/javascript" src="javascript/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="javascript/slider.js"></script>
+	<script type='text/javascript'>
+		if (document.querySelectorAll('a[href^=\'#\']')) {
+			document.querySelectorAll('a[href^=\'#\']').forEach(anchor =>
+				anchor.addEventListener('click', e => {
+					e.preventDefault();
+					document.querySelector(anchor.getAttribute('href')).scrollIntoView({
+						behavior: 'smooth'
+					});
+				}));
+		}
+	</script>
+
+
+
+</body>
+
+</html>

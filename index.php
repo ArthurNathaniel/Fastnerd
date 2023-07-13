@@ -185,7 +185,7 @@
 
             <div class="swiper-slide">
                 <div class="swiper-text">
-                    <h1>Digital Synergy,  Empower Web & Systems</h1>
+                    <h1>Digital Synergy, Empower Web & Systems</h1>
                 </div>
                 <img src="./images/slidder/web-hero.jpg" alt="">
             </div>
@@ -193,7 +193,7 @@
             <div class="swiper-slide">
                 <div class="swiper-text">
                     <h1>Revolutionizing Advertising,
-                       
+
                         The Digital-Outdoor Connection
                     </h1>
                 </div>
@@ -222,8 +222,8 @@
             </div>
 
             <div class="company-detail">
-                Experience tailored application development, captivating website design,
-                and robust server security with Softnage. Empower your business today.
+                We offer a comprehensive range of services, including digital advertising,
+                printing, branding, and a cutting-edge messaging system, both online and in outdoor spaces.
             </div>
             <div class="learn-more">
                 <h3>Digital and Outdoor</h3>
@@ -236,9 +236,10 @@
 
             <div class="company-detail">
 
-                We help build life long mental skills,with our
-                brain development programmes for kids which goes
-                a long way to ensure their future success.
+               We  offer a wide array of services encompassing website development, 
+               web applications, mobile applications, artificial intelligence, 
+               digital marketing, and  ensuring holistic solutions for their clients
+                web and system requirements
             </div>
             <div class="learn-more" style="border-bottom:  8px solid #9e7fba;">
                 <h3>Web and Systems</h3>

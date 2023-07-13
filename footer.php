@@ -9,12 +9,12 @@
       </div>
       <div class="foot-services">
          <h2>Services</h2>
-         <a href="">Digital & Outdoor</a>
+         <a href="index.php">Digital & Outdoor</a>
 
-         <a href="">Web & Systems</a>
+         <a href="./web/index.html">Web & Systems</a>
 
 
-         <a href="">Technical & Support</a>
+         <a href="./technical/index.html">Technical & Support</a>
       </div>
    </div>
 </footer>

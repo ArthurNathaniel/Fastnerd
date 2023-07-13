@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <style>
-                .logo{
+                .logo {
                     height: 100px;
                     width: 150px;
                     background-image: url(./images/ghbox/logo.jpg);
@@ -13,7 +13,7 @@
             </style>
             <div class="col-md-12">
                 <div id="logo" class="logo">
-                    
+
                 </div><!-- /.logo -->
                 <div class="header-widgets">
                     <div id="text-1" class="widget widget_text">
@@ -81,23 +81,43 @@
                                 </li>
                                 <li class="has-children"><a href="#services">Services</a>
                                     <ul class="submenu">
-                                        <li><a href="./digital/index.html">Digital & Outdoor</a></li>
-                                        <li><a href="./web/index.html">Web & Systems</a></li>
-                                        <li><a href="./technical/index.html">Technical & Support</a></li>
+                                        <!-- <li><a href="./digital/index.html">Digital & Outdoor</a></li> -->
+                                        <li class="has-children"><a href="javascript:void(0)">Digital & Outdoor</a>
+                                            <ul class="submenu subb">
+                                                <li><a href="./digital/index.html">Digital Advertising</a>
+                                                </li>
+                                                <li><a href="./digital/index.html">Printing & Branding</a>
+                                                </li>
+                                                <li><a href="./digital/index.html">Messaging System</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="javascript:void(0)">Web & Systems</a>
+                                            <ul class="submenu subb">
+                                                <li><a href="./web/index.html">Online Systems</a>
+                                                </li>
+                                                <li><a href="./web/index.html">Web & Mobile</a>
+                                                </li>
+                                                <li><a href="./web/index.html">Insight & Control</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children"><a href="javascript:void(0)">Technical & Support</a>
+                                            <ul class="submenu subb">
+                                                <li><a href="./technical/index.html">Installation & support</a>
+                                                </li>
+                                                <li><a href="./technical/index.html">Repairs & Configuration</a>
+                                                </li>
+                                                <li><a href="./technical/index.html">Outdoor & Promotion</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- <li><a href="./web/index.html">Web & Systems</a></li> -->
+                                        <!-- <li><a href="./technical/index.html">Technical & Support</a></li> -->
                                     </ul><!-- /.submenu -->
                                 </li>
                             </ul><!-- /.menu -->
-                            <div class="social-links">
-                                <a href="https://web.facebook.com/profile.php?id=100093039194639" target="_blank">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                                <a href="https://twitter.com/GHBox1610501" target="_blank">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/company/GHBox/?originalSubdomain=gh" target="_blank">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </div>
+
                         </nav><!-- /.mainnav -->
                     </div><!-- /.nav-wrap -->
                 </div><!-- /.col-md-12 -->
